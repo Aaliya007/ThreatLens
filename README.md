@@ -5,9 +5,6 @@ AI-powered malicious URL scanner with lexical heuristics + Google Safe Browsing 
 ## Project Structure
 
 ```text
-## Project Structure
-
-```text
 threatlens/
 ├── app.py              ← Main Streamlit app
 ├── requirements.txt
