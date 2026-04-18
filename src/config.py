@@ -1,11 +1,8 @@
 # ============================================================
 # ThreatLens Configuration
 # ============================================================
-# >>> ADD YOUR API KEY HERE <<<
-# Replace the empty string below with your Google Safe Browsing API key.
-# Example: GOOGLE_SAFE_BROWSING_API_KEY = "AIzaSyABC123..."
-
-GOOGLE_SAFE_BROWSING_API_KEY = "AIzaSyCPOYzXfsyGr31zOjy7SLF_BAcjgIxSSTc"   # <-- PASTE YOUR API KEY BETWEEN THE QUOTES
+import os
+GOOGLE_SAFE_BROWSING_API_KEY = os.getenv("GOOGLE_SAFE_BROWSING_API_KEY")
 
 # ============================================================
 # Do NOT change anything below this line
