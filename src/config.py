@@ -1,8 +1,13 @@
 # ============================================================
 # ThreatLens Configuration
 # ============================================================
+
 import os
-GOOGLE_SAFE_BROWSING_API_KEY = os.getenv("GOOGLE_SAFE_BROWSING_API_KEY")
+from dotenv import load_dotenv
+
+load_dotenv()
+
+API_KEY = os.getenv("SAFE_BROWSING_API_KEY")
 
 # ============================================================
 # Do NOT change anything below this line
